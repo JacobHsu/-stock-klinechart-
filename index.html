@@ -36,7 +36,7 @@
             <script type="text/javascript">
               new TradingView.widget({
                 width: 850,
-                height: 800,
+                height: 900,
                 symbol: "NASDAQ:API",
                 interval: "240",
                 timezone: "Etc/UTC",
@@ -46,7 +46,7 @@
                 toolbar_bg: "#f1f3f6",
                 enable_publishing: false,
                 allow_symbol_change: true,
-                studies: ["MACD@tv-basicstudies", "Stochastic@tv-basicstudies","WilliamsAlligator@tv-basicstudies"],
+                studies: ["MACD@tv-basicstudies", "Stochastic@tv-basicstudies","WilliamsAlligator@tv-basicstudies","CCI@tv-basicstudies"],
                 container_id: "tradingview_4cb13",
               });
             </script>
@@ -56,6 +56,8 @@
           作者喻為鱷魚自睡眠中醒來，則將開始尋找食物發動攻勢，表示即將有多頭行情出現。 <br> <br>
           MACD當柱狀圖由負翻正，快線往上突破慢線，被視為黃金交叉(預測市場會上漲)，視為買入信號。<br>
           Stochastic 隨機震盪指標(KD)，識別超買和超賣水平 <br>
+          順勢指標(CCI)是一種動量震盪器。CCI通常用於查找反轉和背離。 <br>
+          當CCI＞﹢100時，超買區間， 當CCI＜﹣100時，超賣區間。
           
         </div>
         <div class="col order-1">
@@ -78,7 +80,7 @@
             <script type="text/javascript">
               new TradingView.widget({
                 width: 850,
-                height: 800,
+                height: 740,
                 symbol: "NASDAQ:API",
                 interval: "240",
                 timezone: "Etc/UTC",
